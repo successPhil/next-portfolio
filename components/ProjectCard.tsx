@@ -46,11 +46,11 @@ const ProjectCard = ({image, title, text, link}: Props) => {
             </div>
             <div
             style={{backgroundImage: `url(${image})`}}
-            className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'>
+            className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4 '>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]'/>
                   <div className='flex flex-col gap-20 py-3 z-[30]'>
                     <h1 className='text-white text-2xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[20px]'>
+                    <p className='text-gray-200 text-[14px] md:text-[20px]  max-w-[80%] md:max-w-[100%] whitespace-normal '>
                         {text}
                     </p>
                   </div>
@@ -58,7 +58,7 @@ const ProjectCard = ({image, title, text, link}: Props) => {
             </motion.div>
         {/*This is where our button goes, need to add PROJECT LINK to constants */ }
             <div className='flex flex-row items-center justify-center py-2'>
-            <a href={link} className="rounded-[20px] group relative bg-transparent border border-white hover:bg-blue-400 px-3 py-2 text-base text-white max-w-[100px] my-2"target="_blank" rel="noopener noreferrer">
+            <a href={link} className="relative -left-10 md:left-0 rounded-[20px] bg-transparent border border-white hover:bg-blue-400 px-3 py-2 text-base text-white max-w-[100px] my-2"target="_blank" rel="noopener noreferrer">
             Try it out!
           </a>
           </div>
