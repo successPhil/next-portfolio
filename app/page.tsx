@@ -6,9 +6,9 @@ export default function Home() {
     <main className="w-screen h-screen relative">
      <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: "url(/main-bg.webp"}}>
       <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-        <h1 className="text-[50px] text-white font-semibold">
+        <h1 className="text-[30px] md:text-[50px] text-white font-semibold">
           Hi! I'm Phil Basti
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-500">
               {" "}
              Fullstack Developer
           </span>
@@ -17,7 +17,7 @@ export default function Home() {
           I am a Marine veteran who loves building applications and helping solve problems. I specialize in using technologies like <strong>React</strong>, <strong>Django</strong>, <strong>PostgreSQL</strong>, <strong>Docker</strong>, <strong>AWS</strong>, and <strong>NGINX</strong> to build fullstack web applications.
           <br/>
           <br/>
-          Two things I love about this industry are constant exposure to learning new technologies and the opportunities to collaborate with other engineers
+          Two things I love about this industry are constant exposure to learning new technologies and the opportunities to collaborate with other engineers.
           <br/>
           <br/>
           If you have any interest in working together or even just having a chat, don't hesitate to reach out through the <strong>Contact Me</strong> form!
@@ -62,13 +62,13 @@ export default function Home() {
 
     </div>
 
-    <div className="absolute bottom-0 right-0 z-10">
+    <div className="absolute bottom-0 right-0 md:z-10">
       <Image 
         src="/horse.png"
         alt="horse"
         height={300}
         width={300}
-        className="absolute right-55 top-40"
+        className="absolute  top-60 md:right-55 md:top-40"
         />
 
       <Image 
@@ -79,7 +79,7 @@ export default function Home() {
         />
     </div>
 
-    <div className="absolute bottom-0 z-[5] w-full h-full">
+    <div className="absolute -bottom-10 md:bottom-10 z-[5] w-full h-full">
       <Image
         src="/trees.webp"
         alt="trees"
