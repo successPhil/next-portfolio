@@ -92,24 +92,28 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Boulder Comp",
+    text: "Sign up to compete with friends in friendly boulder competitions! Users can create leagues, teams, and track progress throughout competitions.",
+    src: "/boulder-comp-thumb.png",
+    link: "http://bouldercomp.com"
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Pokemon KO",
+    text: `Pokemon KO brings back the feeling of Pokemon Red/Blue but with a twist! Collect, battle, and strengthen your favorite Pokémon.`,
+    src: "/pokemonko-thumb.png",
+    link: "http://52.15.232.197/"
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Echo Coffee Co",
+    text: "At Echo Coffee Co, users can create coffee reviews for their favorite coffees. See what other coffee enthusiasts enjoy to expand your coffee journey!",
+    src: "/echo-coffee-thumb.png",
+    link: "http://18.225.235.54/"
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Machbuster",
+    text: "Find out about new movies and shows soon to be released, or search for your favorite movies and create a watchlist to share with your friends!",
+    src: "/machbuster-thumb.png",
+    link: "http://18.117.88.197/"
   },
 ];
 
