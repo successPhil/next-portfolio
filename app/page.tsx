@@ -7,7 +7,7 @@ export default function Home() {
      <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: "url(/main-bg.webp"}}>
       <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
         <h1 className="text-[30px] md:text-[50px] text-white font-semibold">
-          Hi! I'm Phil Basti
+          Hi! I&apos;m Phil Basti
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-500">
               {" "}
              Fullstack Developer
@@ -20,7 +20,7 @@ export default function Home() {
           Two things I love about this industry are constant exposure to learning new technologies and the opportunities to collaborate with other engineers.
           <br/>
           <br/>
-          If you have any interest in working together or even just having a chat, don't hesitate to reach out through the <strong>Contact Me</strong> form!
+          If you have any interest in working together or even just having a chat, don&apos;t hesitate to reach out through the <strong>Contact Me</strong> form!
           
         </p>
 
