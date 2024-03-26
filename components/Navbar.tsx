@@ -10,13 +10,13 @@ const Navbar = () => {
         <Image
             src="/PB.png"
             alt="logo"
-            width={80}
-            height={80}
+            width={60}
+            height={60}
             className="w-full h-full object-contain rounded-full"
         />
         </div>
-        <h1 className="text-white text-[25px] font-semibold">Phil Basti
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
+        <h1 className="text-white hidden md:block text-[25px] font-semibold">Phil Basti
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500">
             {" "}
             Fullstack Dev{" "}
             </span>
