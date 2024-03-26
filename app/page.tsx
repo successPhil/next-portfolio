@@ -7,14 +7,21 @@ export default function Home() {
      <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: "url(/main-bg.webp"}}>
       <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
         <h1 className="text-[50px] text-white font-semibold">
-          Make anything possible with 
+          Hi! I'm Phil Basti
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
               {" "}
-             Web Development
+             Fullstack Developer
           </span>
         </h1>
         <p className="text-gray-200 hidden md:block">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nam nihil doloribus illo natus fugit consequatur blanditiis doloremque veniam ducimus unde quia ipsam accusamus pariatur cupiditate dolores, totam dignissimos. Commodi?
+          I am a Marine veteran who loves building applications and helping solve problems. I specialize in using technologies like <strong>React</strong>, <strong>Django</strong>, <strong>PostgreSQL</strong>, <strong>Docker</strong>, <strong>AWS</strong>, and <strong>NGINX</strong> to build fullstack web applications.
+          <br/>
+          <br/>
+          Two things I love about this industry are constant exposure to learning new technologies and the opportunities to collaborate with other engineers
+          <br/>
+          <br/>
+          If you have any interest in working together or even just having a chat, don't hesitate to reach out through the <strong>Contact Me</strong> form!
+          
         </p>
 
 

@@ -8,10 +8,10 @@ const Navbar = () => {
         <div className="flex flex-row gap-3 items-center">
         <div className="relative">
         <Image
-            src="/horseLogo.jpg"
-            alt="horse logo"
-            width={40}
-            height={40}
+            src="/PB.png"
+            alt="logo"
+            width={80}
+            height={80}
             className="w-full h-full object-contain rounded-full"
         />
         </div>
@@ -25,13 +25,14 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5 mb-2">
             {Socials.map((social) => (
+                <a href={social.link}>
                 <Image
                     key={social.name}
                     src={social.src}
                     alt={social.name}
                     width={28}
                     height={28}
-                    />
+                    /></a>
 
             ))}
 
