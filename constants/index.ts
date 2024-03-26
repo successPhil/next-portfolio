@@ -1,6 +1,94 @@
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
+  
+  {
+    name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Redux",
+    Image: "/redux.png",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    name: "TypeScript",
+    Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+  
+  {
+    name: "Node js",
+    Image: "/node-js.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Postgres",
+    Image: "/postgres.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Mongo db",
+    Image: "/mongodb.png",
+    width: 40,
+    height: 40,
+  },
+  {
+    name: "Python",
+    Image: "/python.png",
+    width: 80,
+    height: 80,
+  },
+
+  {
+    name: "Django",
+    Image: "/django.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Flask",
+    Image: "/flask-white.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "AWS",
+    Image: "/aws.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Docker",
+    Image: "/docker.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Nginx",
+    Image: "/nginx.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Jest",
+    Image: "/jest.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Selenium",
+    Image: "/selenium.png",
+    width: 80,
+    height: 80,
+  },
   {
     name: "Html 5",
     Image: "/html.png",
@@ -26,25 +114,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
-    name: "TypeScript",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Next js 13",
     Image: "/next.png",
     width: 80,
@@ -56,39 +125,31 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
+ 
 ];
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "Github",
+    src: "/github-white.svg",
+    link: "https://github.com/successPhil"
+  },
+  {
+    name: "Instagram",
     src: "/instagram.svg",
+    link: "https://www.instagram.com/phillipbasti/"
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
+    link: "https://www.facebook.com/phillip.basti"
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Linkedin",
+    src: "/linkedin-white.svg",
+    link: "https://www.linkedin.com/in/phillip-basti/"
   },
+ 
 ];
 export const Projects = [
   {

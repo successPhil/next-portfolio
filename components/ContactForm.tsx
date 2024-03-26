@@ -1,7 +1,7 @@
 import React from "react"
 const ContactForm = () => {
     return (
-    <form>
+    <form action="https://formspree.io/f/xeqyrqkv" method="POST">
         <h2 className="text-2xl font-bold mb-5 text-white">Contact Me</h2>
         <div className="mb-3">
             <input
@@ -30,7 +30,7 @@ const ContactForm = () => {
             />
         </div>
 
-        <button className="px-6 mb-5 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
+        <button type="submit" className="px-6 mb-5 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
             Send a message
         </button>
     </form>)
