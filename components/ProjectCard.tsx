@@ -3,13 +3,15 @@ import {motion} from 'framer-motion'
 import React from 'react'
 import { useState } from 'react'
 
+
 interface Props {
     image: string,
     title: string,
-    text: string
+    text: string,
+    link: string
 }
 
-const ProjectCard = ({image, title, text}: Props) => {
+const ProjectCard = ({image, title, text, link}: Props) => {
     const [isFlipped, setIsFlipped ] = useState(false)
     const [ isAnimating, setIsAnimating] = useState(false)
 
@@ -40,6 +42,7 @@ const ProjectCard = ({image, title, text}: Props) => {
                     <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center'>
                     Learn more &gt;
                     </div>
+
             </div>
             <div
             style={{backgroundImage: `url(${image})`}}
@@ -53,6 +56,13 @@ const ProjectCard = ({image, title, text}: Props) => {
                   </div>
             </div>
             </motion.div>
+        {/*This is where our button goes, need to add PROJECT LINK to constants */ }
+            <div className='flex flex-row items-center justify-center py-2'>
+            <a href={link} className="rounded-[20px] group relative bg-transparent border border-white hover:bg-blue-400 px-3 py-2 text-base text-white max-w-[100px] my-2"target="_blank" rel="noopener noreferrer">
+            Try it out!
+          </a>
+          </div>
+            
 
         </div>
     )

@@ -15,11 +15,10 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
         />
         </div>
-        <h1>Phil Basti
+        <h1 className="text-white text-[25px] font-semibold">Phil Basti
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
             {" "}
-            &
-            Dev
+            Fullstack Dev{" "}
             </span>
         </h1>
         </div>
