@@ -35,12 +35,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
     name: "Python",
     Image: "/python.png",
     width: 80,
