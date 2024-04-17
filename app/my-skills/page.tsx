@@ -28,7 +28,6 @@ const Page = () => {
 
                 </div>
 
-                <div className='swiper-container max-w-[80%]'>
                     <Swiper
                     slidesPerView={5}
                     loop={true}
@@ -54,33 +53,6 @@ const Page = () => {
 
                     </Swiper>
 
-                    <Swiper
-                    slidesPerView={5}
-                    loop={true}
-                    autoplay={{
-                        delay: 0,
-                        disableOnInteraction: false,
-                        reverseDirection: true
-                    }}
-                    speed={5000}
-                    modules={[Autoplay]}
-                    className='max-w-[80%]'
-                    >
-                    
-                    {SkillData.map((skill, index) => (
-                        <SwiperSlide key={index}>
-                            <Image 
-                            src={skill.Image}
-                            alt={skill.name}
-                            width={skill.width}
-                            height={skill.height}
-                            />
-                        </SwiperSlide>
-                    ))}
-
-                    </Swiper>
-
-            </div>
             </div>
 
         </div>
