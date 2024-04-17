@@ -51,11 +51,11 @@ export default function Home() {
             Learn More
           </Link>
 
-          <Link href="/my-skills" className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
+          <Link href="/my-projects" className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
             My Projects
           </Link>
 
-          <Link href="/my-skills" className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
+          <Link href="/contact-me" className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
           
             Contact Me
           </Link>
