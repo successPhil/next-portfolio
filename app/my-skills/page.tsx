@@ -11,8 +11,8 @@ const Page = () => {
         <div
         style={{backgroundImage: "url(/bg-2.jpg)"}}
         className='h-screen w-screen flex items-center justify-center bg-cover bg-center'>
-            <div className='flex flex-col gap-20 max-w-[60%] text-center items-center'>
-                <div className='flex flex-col items-center gap-4'>
+            <div className='flex flex-col gap-20 max-w-[80%] text-center items-center'>
+                <div className='flex flex-col items-center'>
                     <h1 className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to to-yellow-400 text-[50px]'>
                         Skills
                         <span className="text-white">
@@ -27,6 +27,8 @@ const Page = () => {
                     </p>
 
                 </div>
+
+                <div className='swiper-container max-w-[80%]'>
                     <Swiper
                     slidesPerView={5}
                     loop={true}
@@ -78,6 +80,7 @@ const Page = () => {
 
                     </Swiper>
 
+            </div>
             </div>
 
         </div>
