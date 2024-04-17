@@ -46,7 +46,7 @@ export default function Home() {
 {/* Mobile Starts Here */}
 
 
-    <div className="absolute flex md:hidden bottom-10 z-[20] right-5 flex-col gap-5">
+    <div className="absolute flex md:hidden bottom-20 z-[20] right-5 flex-col gap-5">
     <Link href="/my-skills" className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
             Learn More
           </Link>
