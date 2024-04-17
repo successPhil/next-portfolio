@@ -134,16 +134,7 @@ export const Socials = [
     src: "/github-white.svg",
     link: "https://github.com/successPhil"
   },
-  {
-    name: "Instagram",
-    src: "/instagram.svg",
-    link: "https://www.instagram.com/phillipbasti/"
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-    link: "https://www.facebook.com/phillip.basti"
-  },
+
   {
     name: "Linkedin",
     src: "/linkedin-white.svg",
