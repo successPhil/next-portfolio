@@ -147,7 +147,7 @@ export const Projects = [
     title: "Pokemon KO",
     text: `Pokemon KO brings back the feeling of Pokemon Red/Blue but with a twist! Collect, battle, and strengthen your favorite Pokémon.`,
     src: "/pokemonko-thumb.png",
-    link: "http://52.15.232.197/"
+    link: "https://pokemonko.com"
   },
   {
     title: "Echo Coffee Co",
