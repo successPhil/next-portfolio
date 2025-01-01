@@ -57,13 +57,13 @@ const ProjectCard = ({image, title, text, link}: Props) => {
             </div>
             </motion.div>
         {/*This is where our button goes, need to add PROJECT LINK to constants */ }
-        {link && (
+        {/* {link && (
             <div className='flex flex-row items-center justify-center py-2'>
             <a href={link} className="relative -left-10 md:left-0 rounded-[20px] bg-transparent border border-white hover:bg-blue-400 px-3 py-2 text-base text-white max-w-[100px] my-2"target="_blank" rel="noopener noreferrer">
             Try it out!
           </a>
           </div>
-        )}
+        )} */}
             
 
         </div>
